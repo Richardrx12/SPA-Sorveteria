@@ -1,0 +1,44 @@
+.container-banner {
+    height: 110vh;
+    width: 100%;
+    background-image: url('/public/assets/banner-home.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(241, 217, 81, 0.979);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.container-banner h1{
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    text-shadow: 1px 2px 2px black;
+
+}
+
+@media screen and (max-width: 460px){
+    .container-banner{
+       text-align: center;
+       background-size: contain;
+       
+    }
+    
+    .container-banner h1{
+        font-size: 42px;
+    }
+}
+
+@media screen and (min-width: 260px) and (max-width:790px) {
+    .container-banner{
+        text-align: center;
+        background-position: 50% bottom;
+        
+     }
+     
+     .container-banner h1{
+         font-size: 45px;
+     }
+}

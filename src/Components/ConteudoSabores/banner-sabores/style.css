@@ -1,0 +1,25 @@
+.banner-sabores {
+   
+    background-image: url('/public/assets/banner-sabores.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 110vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.banner-sabores h1{
+    color: rgb(255, 255, 255);
+    font-size: 70px;
+    text-shadow: 1px 2px 2px black;
+
+}
+
+@media screen and (max-width: 460px){
+        .banner-sabores h1{
+            font-size: 40px;
+        }
+}

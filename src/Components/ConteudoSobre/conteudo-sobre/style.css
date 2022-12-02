@@ -1,0 +1,29 @@
+.conteudo-sobre {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.texto-sobre{
+    line-height: 30px;
+    font-size: 18px;
+    padding: 20px;
+}
+
+.texto-sobre h2, .texto-sobre h3 {
+    padding-bottom: 30px;
+}
+
+
+.imagens-sobre{
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin-top: 100px;
+}
+
+.imagens-sobre img {
+    width: 50%;
+}

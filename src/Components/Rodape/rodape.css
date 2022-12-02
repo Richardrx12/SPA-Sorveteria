@@ -1,0 +1,53 @@
+footer{
+    background-color: black;
+    color: aliceblue;
+    width: 100%;
+    
+}
+
+.container-rodape{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 120px;
+    width: 100%;
+    
+}
+
+.endereco{
+    width: 20%;
+}
+
+.aux{
+    display: flex;
+    justify-content: center;
+    padding: 70px 0;
+}
+
+@media screen and (max-width: 780px) {
+    .container-rodape{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+        gap: 30px; 
+        font-size: 14px;
+        
+    }
+
+    .endereco {
+        width: 50%;
+    }
+
+}
+
+@media screen and (max-width: 425px) {
+    .aux {
+        text-align: center;
+        padding: 70px 20px;
+        font-size: 12px;
+    }
+}
+
+
